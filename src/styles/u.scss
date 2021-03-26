@@ -1,0 +1,117 @@
+/**
+ * 原子类
+ * 此文件下的类不会因项目的不同而修改
+ * 
+ * 不要滥用原子类，不适用例如.mt10这种具体的原子类
+ */
+
+// 适应iphonex的底部操作栏的类
+.u-safe-bottom {
+	display: block;
+	padding-bottom: 0;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.u-tal {
+	text-align: left;
+}
+
+.u-tar {
+	text-align: right;
+}
+
+.u-tac {
+	text-align: center;
+}
+
+.u-wsn {
+	word-wrap: normal;
+	white-space: nowrap;
+}
+.u-toe {
+	overflow: hidden;
+	word-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.u-toe2 {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	
+	/* autoprefixer: ignore next */
+	-webkit-box-orient: vertical;
+}
+.u-toe3 {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+	
+	/* autoprefixer: ignore next */
+	-webkit-box-orient: vertical;
+}
+.u-usn {
+	user-select: none;
+}
+
+.u-mlra {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// flex 布局相关
+.uf-grow {
+	position: relative;
+	flex-grow: 1;
+}
+
+.uf-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.uf-column {
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.uf-middle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+//
+.u-full-absolute {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.u-full-block {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.u-full-fixed {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}

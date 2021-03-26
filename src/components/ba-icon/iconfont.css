@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('~@/static/iconfont/iconfont.ttf');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 1em;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1em;
+	display: inline-flex;
+	align-items: center;
+}
+
+.iconfont:before {
+	vertical-align: middle;
+	display: block;
+}
+
+.icon-rising:before {
+  content: "\e703";
+}
+
+.icon-qr:before {
+  content: "\e704";
+}
+
+.icon-loading:before {
+  content: "\e756";
+}
+
+.icon-eye-close:before {
+  content: "\e75a";
+}
+
+.icon-error:before {
+  content: "\e64c";
+}
+
+.icon-unknow:before {
+  content: "\e61e";
+}
+
+.icon-timeout:before {
+  content: "\e829";
+}
+
+.icon-upload:before {
+  content: "\e674";
+}
+
+.icon-nodata:before {
+  content: "\e613";
+}
+
+.icon-down-fill:before {
+  content: "\e62e";
+}
+
+.icon-service:before {
+  content: "\e60b";
+}
+
+.icon-scan:before {
+  content: "\e60d";
+}
+
+.icon-delete:before {
+  content: "\e60e";
+}
+
+.icon-search:before {
+  content: "\e623";
+}
+
+.icon-time:before {
+  content: "\e65f";
+}
+
+.icon-filter:before {
+  content: "\e74a";
+}
+
+.icon-question:before {
+  content: "\e782";
+}
+
+.icon-question-fill:before {
+  content: "\e845";
+}
+
+.icon-exchange:before {
+  content: "\e63c";
+}
+
+.icon-back:before {
+  content: "\e646";
+}
+
+.icon-down:before {
+  content: "\e69b";
+}
+
+.icon-increase:before {
+  content: "\e69f";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-left:before {
+  content: "\e744";
+}
+
+.icon-arrow-up:before {
+  content: "\e745";
+}
+
+.icon-eye-open:before {
+  content: "\e746";
+}
+
+.icon-close:before {
+  content: "\e747";
+}
+
+.icon-left-arrow:before {
+  content: "\e755";
+}
+
+.icon-prompt:before {
+  content: "\e75e";
+}
+
+.icon-right-arrow:before {
+  content: "\e761";
+}
+
+.icon-scanning:before {
+  content: "\e762";
+}
+
+.icon-copy:before {
+  content: "\e609";
+}
+
+.icon-record:before {
+  content: "\e602";
+}
+

@@ -1,0 +1,73 @@
+/**
+ * m-form
+ * 	 m-form-group
+ * 	   m-form-label
+ * 	   m-form-control
+ * 	     input
+ *       m-form-control__append
+ */
+.m-form {
+	&-group {
+		position: relative;
+		margin-bottom: 50rpx;
+
+		&::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border-bottom: 1px solid #e6e6e6;
+			transform: scaleY(0.5);
+		}
+
+		// 有些不需要底边框
+		&--noborder {
+			border: none !important;
+			&::after {
+				display: none;
+			}
+		}
+		
+		input,
+		textarea {
+			font-size: 28rpx;
+			flex-grow: 1;
+			box-sizing: border-box;
+		
+			&::-webkit-input-placeholder {
+				color: #bbbbbb;
+			}
+		}
+		
+		input {
+			height: 100rpx;
+		}
+	}
+
+	&-label {
+		height: 40rpx;
+		font-size: 26rpx;
+	}
+	&--border &-group {
+		&::after {
+			display: none;
+		}
+	}
+	&--border &-control {
+		border: 1px solid #2a2a63;
+	}
+
+	&-control {
+		display: flex;
+		align-items: center;
+
+		&__append {
+			flex-shrink: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 28rpx;
+		}
+	}
+}

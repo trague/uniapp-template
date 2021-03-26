@@ -1,0 +1,33 @@
+/**
+ * 功能类
+ * 针对每个项目进行添加，每个项目不同，基本每个项目仅是值不同
+ */
+
+/* 公共的两侧边距 */
+.f-plr {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+
+.f-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 28rpx;
+	box-shadow: none;
+	color: #fff;
+	
+	&::after {
+		display: none;
+	}
+}
+
+// 主题色1
+.f-c1 {
+	color: green !important;
+}
+
+// 主题色2
+.f-c2 {
+	color: red !important;
+}

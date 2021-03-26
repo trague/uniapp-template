@@ -1,0 +1,74 @@
+{
+	"pages": [
+		{
+			"path": "pages/checkin/checkin",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/basic/landing",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/basic/upgrade",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"animationType": "fade-in",
+					"background": "transparent",
+					"backgroundColor": "rgba(0,0,0,0)",
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"app-plus": {
+			"background": "#ffffff",
+			"bounceBackground": "#ffffff"
+		},
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"background": "#ffffff"
+	},
+	"tabBar": {
+		"color": "#8A8A8A",
+		"selectedColor": "#B6B1AD",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/homea.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/checkin/checkin",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/homea.png",
+				"text": "签到"
+			}
+		]
+	},
+	"networkTimeout": {
+		"request": 12000,
+		"connectSocket": 60000,
+		"uploadFile": 20000,
+		"downloadFile": 40000
+	}
+}
